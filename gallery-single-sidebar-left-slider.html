@@ -10,7 +10,7 @@
 	<head>
 
 		<!-- Title -->
-		<title>Intro - FreeBird - Photography Portfolio HTML Website Template</title>
+		<title>Single Gallery - FreeBird - Photography Portfolio HTML Website Template</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -115,7 +115,7 @@
 					<!-- Begin menu -->
 					<div id="menu">
 						<ul class="menu-list">
-							<li class="has-children active">
+							<li class="has-children">
 								<a href="#" class="sub-menu-trigger">Home</a> 
 								<ul class="sub-menu">
 									<li><a href="intro-image.html">Intro Image</a></li>
@@ -145,7 +145,7 @@
 									<li><a href="gallery-list-grid-no-filter.html">Without Filter</a></li>
 								</ul>
 							</li>
-							<li class="has-children">
+							<li class="has-children active">
 								<a href="#" class="sub-menu-trigger">Gallery</a> 
 								<ul class="sub-menu">
 									<li><a href="gallery-single.html">Default</a></li>
@@ -251,186 +251,226 @@
 		************************************** -->
 		<div id="body-content">
 						
-			<!-- =================================
-			///// Begin gallery list section /////
-			================================== -->
-			<section id="gallery-list-section" class="gallery-list-slideshow">
-				<div class="container-fluid no-padding bg-dark">
+			<!-- ===================================
+			///// Begin gallery single section /////
+			==================================== -->
+			<section id="gallery-single-section" class="gallery-single-with-sidebar gs-slider-sidebar gs-sidebar-left">
+				<div class="container-fluid no-padding">
 
-					<!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
-					====================================================================
-					* Use class "nav-outside" for outside nav (requires boxed layout).
-					* Use class "nav-outside-top" for outside top nav (requires enough space at the top of the slider).
-					* Use class "nav-bottom-right" for bottom right nav.
-					* Use class "nav-rounded" for rounded nav.
-					* Use class "nav-light" to enable nav light style.
-					* Use class "dots-outside" for outside dots (requires enough space at the bottom of the slider).
-					* Use class "dots-left", "dots-right" or "dots-center-right" to align dots.
-					* Use class "dots-rounded" for rounded dots.
-					* Use class "owl-mousewheel" to enable mousewheel support.
-					* Use class "cursor-grab" to enable cursor grab icon (no effect on links!).
-					* Use class "cc-hover" or "cc-hover-2" to enable carousel items hover effect.
-					* Use class "cc-height-1", "cc-height-2", "cc-height-3", "cc-height-4", "cc-height-5", "cc-height-6" or "cc-height-full" to set carousel height.
-					* Use class "cc-height-m" to set full height for small screens.
-					================================================================
-					* Available carousel data attributes:
-							data-items="5".......................(items visible on desktop)
-							data-tablet-landscape="4"............(items visible on mobiles)
-							data-tablet-portrait="3".............(items visible on mobiles)
-							data-mobile-landscape="2"............(items visible on tablets)
-							data-mobile-portrait="1".............(items visible on tablets)
-							data-loop="true".....................(true/false)
-							data-margin="10".....................(space between items)
-							data-center="true"...................(true/false)
-							data-start-position="0"..............(item start position)
-							data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
-							data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
-							data-mouse-drag="false"..............(true/false)
-							data-touch-drag="false"..............(true/false)
-							data-autoheight="true"...............(true/false)
-							data-autoplay="true".................(true/false)
-							data-autoplay-timeout="5000".........(milliseconds)
-							data-autoplay-hover-pause="true".....(true/false)
-							data-autoplay-speed="800"............(milliseconds)
-							data-drag-end-speed="800"............(milliseconds)
-							data-nav="true"......................(true/false)
-							data-nav-speed="800".................(milliseconds)
-							data-dots="false"....................(true/false)
-							data-dots-speed="800"................(milliseconds)
-					-->
-					<div class="owl-carousel cc-height-full cursor-grab nav-bottom-right" data-items="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="10000" data-dots="false" data-nav="true" data-animate-in="fadeIn" data-animate-out="fadeOut">
+					<div class="row">
+						<div class="col-lg-3">
 
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-5.jpg); background-position: 50% 30%;">
-
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
-
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
+							<!-- Begin gallery single sidebar
+							==================================
+							* Add class "gs-sidebar-fh" to enable full height sidebar.
 							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Old Photos</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
+							<div class="gs-sidebar gs-sidebar-fh">
+								<div class="gs-sidebar-inner">
+									
+									<!-- Begin gallery info -->
+									<div class="gs-sidebar-info">
+										<h3 class="font-alter-1">Single Gallery</h3>
+
+										<div class="gs-sidebar-meta-wrap">
+											<div class="gs-sidebar-meta">
+												<span class="gs-sidebar-meta-title">Photo &amp; Edition</span>
+												<span class="gs-sidebar-meta-sub">Peter Lorens</span>
+											</div>
+
+											<div class="gs-sidebar-meta">
+												<span class="gs-sidebar-meta-title">Model</span>
+												<span class="gs-sidebar-meta-sub">Liselle Shmith</span>
+											</div>
+
+											<div class="gs-sidebar-meta">
+												<span class="gs-sidebar-meta-title">Makeup</span>
+												<span class="gs-sidebar-meta-sub">Anna Vent</span>
+											</div>
+										</div>
+
+										<div class="gs-sidebar-description">
+											<p>Integer porta pretium enim ut mollis. Etiam quis varius nibh. Nam posuere mauris nisi, commodo urna venenatis aliquam. Mauris dapibus mauris quis lorem aliquet posuere. Fusce vitae scelerisque lectus.</p>
+										</div>
+									</div>
+									<!-- End gallery info -->
+
+								</div> <!-- /.gs-sidebar-inner -->
+
+								<!-- Begin gallery meta -->
+								<ul class="gallery-meta">
+									<li>
+										<!-- Begin favorite button -->
+										<div class="favorite-btn">
+											<div class="fav-inner">
+												<div class="icon-heart">
+													<span class="icon-heart-empty"></span>
+													<span class="icon-heart-filled"></span>
+												</div>
+											</div>
+											<div class="fav-count">56</div>
+										</div>
+										<!-- End favorite button -->
+									</li>
+									<li>
+										<!-- Begin content share trigger  -->
+										<div class="content-share-trigger">
+											<a href="#0" class="content-share-icon" title="Share this album" data-toggle="modal" data-target="#modal-87213502">
+												<i class="fas fa-share-alt"></i>
+											</a>
+										</div>
+										<!-- End content share trigger -->
+
+										<!-- Begin modal (for content share) 
+										=====================================
+										* Use class "modal-center" to enable modal center position.
+										-->
+										<div id="modal-87213502" class="modal modal-center fade" tabindex="-1" role="dialog" aria-hidden="false">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+														<h4 class="modal-title">Share This Album</h4>
+													</div>
+													<div class="modal-body">
+
+														<!-- Begin modal share -->
+														<div class="modal-share">
+															<div class="modal-share-image" style="background-image: url(assets/img/gallery/gallery-single/grid/gallery-single-1.jpg);"></div>
+															
+															<!-- Begin social buttons -->
+															<div class="social-buttons">
+																<ul>
+																	<li><a href="#0" class="btn btn-social-min btn-facebook btn-rounded-full" title="Share on facebook"><i class="fab fa-facebook-f"></i></a></li>
+																	<li><a href="#0" class="btn btn-social-min btn-twitter btn-rounded-full" title="Share on twitter"><i class="fab fa-twitter"></i></a></li>
+																	<li><a href="#0" class="btn btn-social-min btn-google btn-rounded-full" title="Share on google+"><i class="fab fa-google-plus-g"></i></a></li>
+																	<li><a href="#0" class="btn btn-social-min btn-pinterest btn-rounded-full" title="Share on pinterest"><i class="fab fa-pinterest"></i></a></li>
+																	<li><a href="#0" class="btn btn-social-min btn-linkedin btn-rounded-full" title="Share on linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+																</ul>
+															</div>
+															<!-- End social buttons -->
+															
+															<input class="grab-link" type="text" readonly="" value="https://your-site.com/your-album-link/" onclick="this.select()">
+														</div>
+														<!-- End modal share -->
+
+													</div>
+													<div class="modal-footer hide"> <!-- remove class "hide" if you want to use modal footer -->
+														Copyright 2016 / All rights reserved
+													</div>
+												</div> <!-- /.modal-content -->
+											</div> <!-- /.modal-dialog -->
+										</div>
+										<!-- End modal -->
+									</li>
+								</ul>
+								<!-- End gallery meta -->
+
+								<a href="" class="gs-back-to-list"><i class="fas fa-long-arrow-alt-left"></i> Go Back</a>
+
 							</div>
-							<!-- End caption -->
+							<!-- End gallery single sidebar -->
 
-						</div>
-						<!-- End carousel item -->
+						</div> <!-- /.col-->
 
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-6.jpg); background-position: 50% 50%;">
+						<div class="col-lg-9">
 
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
-
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
+							<!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
+							====================================================================
+							* Use class "nav-outside" for outside nav (requires boxed layout).
+							* Use class "nav-outside-top" for outside top nav (requires enough space at the top of the slider).
+							* Use class "nav-bottom-right" for bottom right nav.
+							* Use class "nav-rounded" for rounded nav.
+							* Use class "nav-light" to enable nav light style.
+							* Use class "dots-outside" for outside dots (requires enough space at the bottom of the slider).
+							* Use class "dots-left", "dots-right" or "dots-center-right" to align dots.
+							* Use class "dots-rounded" for rounded dots.
+							* Use class "owl-mousewheel" to enable mousewheel support.
+							* Use class "cursor-grab" to enable cursor grab icon (no effect on links!).
+							* Use class "cc-hover" or "cc-hover-2" to enable carousel items hover effect.
+							* Use class "cc-height-1", "cc-height-2", "cc-height-3", "cc-height-4", "cc-height-5", "cc-height-6" or "cc-height-full" to set carousel height.
+							* Use class "cc-height-m" to set full height for small screens.
+							====================================================================
+							* Available carousel data attributes:
+									data-items="5".......................(items visible on desktop)
+									data-tablet-landscape="4"............(items visible on mobiles)
+									data-tablet-portrait="3".............(items visible on mobiles)
+									data-mobile-landscape="2"............(items visible on tablets)
+									data-mobile-portrait="1".............(items visible on tablets)
+									data-loop="true".....................(true/false)
+									data-margin="10".....................(space between items)
+									data-center="true"...................(true/false)
+									data-start-position="0"..............(item start position)
+									data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
+									data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
+									data-mouse-drag="false"..............(true/false)
+									data-touch-drag="false"..............(true/false)
+									data-autoheight="true"...............(true/false)
+									data-autoplay="true".................(true/false)
+									data-autoplay-timeout="5000".........(milliseconds)
+									data-autoplay-hover-pause="true".....(true/false)
+									data-autoplay-speed="800"............(milliseconds)
+									data-drag-end-speed="800"............(milliseconds)
+									data-nav="true"......................(true/false)
+									data-nav-speed="800".................(milliseconds)
+									data-dots="false"....................(true/false)
+									data-dots-speed="800"................(milliseconds)
 							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Mother Nature</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
+							<div class="owl-carousel lightgallery cc-height-full owl-mousewheel nav-bottom-right nav-light" data-items="1" data-margin="20" data-loop="true" data-nav="true" data-dots="false">
+
+								<!-- Begin carousel item 
+								========================= -->
+								<a href="assets/img/gallery/gallery-single/sidebar/big/gallery-sidebar-big-1.jpg" class="cc-item-wrap lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/sidebar/thumb/gallery-sidebar-thumb-1.jpg">
+
+									<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-single/sidebar/gallery-sidebar-1.jpg); background-position: 50% 50%;"></div>
+
+								</a>
+								<!-- End carousel item -->
+
+								<!-- Begin carousel item 
+								========================= -->
+								<a href="https://vimeo.com/20047720" class="cc-item-wrap lg-trigger">
+
+									<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-single/sidebar/gallery-sidebar-2.jpg); background-position: 50% 50%;"></div>
+
+								</a>
+								<!-- End carousel item -->
+
+								<!-- Begin carousel item 
+								========================= -->
+								<a href="https://www.youtube.com/watch?v=meBbDqAXago" class="cc-item-wrap lg-trigger">
+
+									<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-single/sidebar/gallery-sidebar-3.jpg); background-position: 50% 50%;"></div>
+
+								</a>
+								<!-- End carousel item -->
+
+								<!-- Begin carousel item 
+								========================= -->
+								<a href="assets/img/gallery/gallery-single/sidebar/big/gallery-sidebar-big-4.jpg" class="cc-item-wrap lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/sidebar/thumb/gallery-sidebar-thumb-4.jpg">
+
+									<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-single/sidebar/gallery-sidebar-4.jpg); background-position: 50% 50%;"></div>
+
+								</a>
+								<!-- End carousel item -->
+
+								<!-- Begin carousel item 
+								========================= -->
+								<a href="assets/img/gallery/gallery-single/sidebar/big/gallery-sidebar-big-5.jpg" class="cc-item-wrap lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/sidebar/thumb/gallery-sidebar-thumb-5.jpg">
+
+									<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-single/sidebar/gallery-sidebar-5.jpg); background-position: 50% 50%;"></div>
+
+								</a>
+								<!-- End carousel item -->
+
 							</div>
-							<!-- End caption -->
+							<!-- End content carousel -->
 
-						</div>
-						<!-- End carousel item -->
-
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-7.jpg); background-position: 50% 50%;">
-
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
-
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Fashion Photo Shoot</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
-
-						</div>
-						<!-- End carousel item -->
-
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-8.jpg); background-position: 50% 50%;">
-
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
-
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Black &amp; White</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
-
-						</div>
-						<!-- End carousel item -->
-
-						<!-- Begin carousel item 
-						========================= -->
-						<!-- <div class="cc-item">
-								
-							<a class="owl-video" href="https://vimeo.com/99653121"></a>
-
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600">
-								<h2 class="cc-title font-alter-1">Beauty &amp; Fashion</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<a href="gallery-single.html" class="btn btn-primary margin-top-25">View Project</a>
-							</div>
-							
-						</div> -->
-						<!-- End carousel item --> 
-
-					</div>
-					<!-- End content carousel -->
+						</div> <!-- /.col-->
+					</div> <!-- /.row -->
 
 				</div> <!-- /.container -->
 			</section>
-			<!-- End gallery list section -->
+			<!-- End gallery single section -->
 
 		</div>
 		<!-- End body content -->

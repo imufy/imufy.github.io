@@ -10,7 +10,7 @@
 	<head>
 
 		<!-- Title -->
-		<title>Intro - FreeBird - Photography Portfolio HTML Website Template</title>
+		<title>Albums - FreeBird - Photography Portfolio HTML Website Template</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -115,7 +115,7 @@
 					<!-- Begin menu -->
 					<div id="menu">
 						<ul class="menu-list">
-							<li class="has-children active">
+							<li class="has-children">
 								<a href="#" class="sub-menu-trigger">Home</a> 
 								<ul class="sub-menu">
 									<li><a href="intro-image.html">Intro Image</a></li>
@@ -130,7 +130,7 @@
 									<li><a href="about-me-simple.html">About Me Simple</a></li>
 								</ul>
 							</li>
-							<li class="has-children">
+							<li class="has-children active">
 								<a href="#" class="sub-menu-trigger">Albums</a> 
 								<ul class="sub-menu">
 									<li><a href="gallery-list-categories.html">Categories Grid</a></li>
@@ -251,186 +251,206 @@
 		************************************** -->
 		<div id="body-content">
 						
-			<!-- =================================
-			///// Begin gallery list section /////
-			================================== -->
-			<section id="gallery-list-section" class="gallery-list-slideshow">
-				<div class="container-fluid no-padding bg-dark">
+			<!-- ==============================================
+			///// Begin horizontal scroll gallery section /////
+			=============================================== -->
+			<section id="gallery-horizontal-scroll-section">
+				<div class="container-fluid no-padding">
 
-					<!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
-					====================================================================
-					* Use class "nav-outside" for outside nav (requires boxed layout).
-					* Use class "nav-outside-top" for outside top nav (requires enough space at the top of the slider).
-					* Use class "nav-bottom-right" for bottom right nav.
-					* Use class "nav-rounded" for rounded nav.
-					* Use class "nav-light" to enable nav light style.
-					* Use class "dots-outside" for outside dots (requires enough space at the bottom of the slider).
-					* Use class "dots-left", "dots-right" or "dots-center-right" to align dots.
-					* Use class "dots-rounded" for rounded dots.
-					* Use class "owl-mousewheel" to enable mousewheel support.
-					* Use class "cursor-grab" to enable cursor grab icon (no effect on links!).
-					* Use class "cc-hover" or "cc-hover-2" to enable carousel items hover effect.
-					* Use class "cc-height-1", "cc-height-2", "cc-height-3", "cc-height-4", "cc-height-5", "cc-height-6" or "cc-height-full" to set carousel height.
-					* Use class "cc-height-m" to set full height for small screens.
-					================================================================
-					* Available carousel data attributes:
-							data-items="5".......................(items visible on desktop)
-							data-tablet-landscape="4"............(items visible on mobiles)
-							data-tablet-portrait="3".............(items visible on mobiles)
-							data-mobile-landscape="2"............(items visible on tablets)
-							data-mobile-portrait="1".............(items visible on tablets)
-							data-loop="true".....................(true/false)
-							data-margin="10".....................(space between items)
-							data-center="true"...................(true/false)
-							data-start-position="0"..............(item start position)
-							data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
-							data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
-							data-mouse-drag="false"..............(true/false)
-							data-touch-drag="false"..............(true/false)
-							data-autoheight="true"...............(true/false)
-							data-autoplay="true".................(true/false)
-							data-autoplay-timeout="5000".........(milliseconds)
-							data-autoplay-hover-pause="true".....(true/false)
-							data-autoplay-speed="800"............(milliseconds)
-							data-drag-end-speed="800"............(milliseconds)
-							data-nav="true"......................(true/false)
-							data-nav-speed="800".................(milliseconds)
-							data-dots="false"....................(true/false)
-							data-dots-speed="800"................(milliseconds)
+					<!-- Begin horizontal scroller 
+					===============================
+					* Use class "gutter-1", "gutter-2" or "gutter-3" to add more space between items.
 					-->
-					<div class="owl-carousel cc-height-full cursor-grab nav-bottom-right" data-items="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="10000" data-dots="false" data-nav="true" data-animate-in="fadeIn" data-animate-out="fadeOut">
+					<div class="horizontal-scroller cutter-3">
+						<div class="hs-inner">
 
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-5.jpg); background-position: 50% 30%;">
+							<!-- Begin horizontal scroller item 
+							==================================== -->
+							<div class="hs-item">
 
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
+								<!-- hs item image -->
+								<img class="hs-item-image" src="assets/img/gallery/gallery-list/auto-width/gallery-auto-width-1.jpg" alt="img">
 
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Old Photos</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
+								<!-- hs item image for small devices -->
+								<div class="hs-item-bg-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/auto-width/gallery-auto-width-1.jpg);"></div>
 
-						</div>
-						<!-- End carousel item -->
-
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-6.jpg); background-position: 50% 50%;">
-
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
-
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Mother Nature</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
-
-						</div>
-						<!-- End carousel item -->
-
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-7.jpg); background-position: 50% 50%;">
-
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
-
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Fashion Photo Shoot</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
-
-						</div>
-						<!-- End carousel item -->
-
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-8.jpg); background-position: 50% 50%;">
-
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
-
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Black &amp; White</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
-
-						</div>
-						<!-- End carousel item -->
-
-						<!-- Begin carousel item 
-						========================= -->
-						<!-- <div class="cc-item">
+								<!-- Element cover -->
+								<span class="cover"></span>
 								
-							<a class="owl-video" href="https://vimeo.com/99653121"></a>
+								<!-- Begin hs caption 
+								======================
+								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
+								* Size classes: "hs-caption-xs", "hs-caption-sm", "hs-caption-sm", "hs-caption-sm".
+								-->
+								<div class="hs-caption bottom-left max-width-400"> <!-- max width class is optional -->
+									<h2 class="hs-title">Mysterious Places</h2>
+									<p class="hs-description">
+										Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat.
+									</p>
+									<a href="gallery-single.html" class="btn btn-primary btn-sm margin-top-25">View Album</a>
+								</div>
+								<!-- End hs caption -->
 
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600">
-								<h2 class="cc-title font-alter-1">Beauty &amp; Fashion</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<a href="gallery-single.html" class="btn btn-primary margin-top-25">View Project</a>
 							</div>
-							
-						</div> -->
-						<!-- End carousel item --> 
+							<!-- End horizontal scroller item -->
 
+							<!-- Begin horizontal scroller item 
+							==================================== -->
+							<div class="hs-item">
+
+								<!-- hs item image img -->
+								<img class="hs-item-image" src="assets/img/gallery/gallery-list/auto-width/gallery-auto-width-2.jpg" alt="img">
+
+								<!-- hs item image for small devices -->
+								<div class="hs-item-bg-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/auto-width/gallery-auto-width-2.jpg);"></div>
+
+								<!-- Element cover -->
+								<span class="cover"></span>
+								
+								<!-- Begin hs caption 
+								======================
+								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
+								* Size classes: "hs-caption-xs", "hs-caption-sm", "hs-caption-sm", "hs-caption-sm".
+								-->
+								<div class="hs-caption bottom-left max-width-400"> <!-- max width class is optional -->
+									<h2 class="hs-title">One Windy Day</h2>
+									<p class="hs-description">
+										Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat.
+									</p>
+									<a href="gallery-single.html" class="btn btn-primary btn-sm margin-top-25">View Album</a>
+								</div>
+								<!-- End hs caption -->
+
+							</div>
+							<!-- End horizontal scroller item -->
+
+							<!-- Begin horizontal scroller item 
+							==================================== -->
+							<div class="hs-item">
+
+								<!-- hs item image img -->
+								<img class="hs-item-image" src="assets/img/gallery/gallery-list/auto-width/gallery-auto-width-3.jpg" alt="img">
+
+								<!-- hs item image for small devices -->
+								<div class="hs-item-bg-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/auto-width/gallery-auto-width-3.jpg);"></div>
+
+								<!-- Element cover -->
+								<span class="cover"></span>
+								
+								<!-- Begin hs caption 
+								======================
+								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
+								* Size classes: "hs-caption-xs", "hs-caption-sm", "hs-caption-sm", "hs-caption-sm".
+								-->
+								<div class="hs-caption bottom-left max-width-400"> <!-- max width class is optional -->
+									<h2 class="hs-title">One Day Fashion Shoot With Ordinary People</h2>
+									<p class="hs-description">
+										Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat.
+									</p>
+									<a href="gallery-single.html" class="btn btn-primary btn-sm margin-top-25">View Album</a>
+								</div>
+								<!-- End hs caption -->
+
+							</div>
+							<!-- End horizontal scroller item -->
+
+							<!-- Begin horizontal scroller item 
+							==================================== -->
+							<div class="hs-item">
+
+								<!-- hs item image img -->
+								<img class="hs-item-image" src="assets/img/gallery/gallery-list/auto-width/gallery-auto-width-4.jpg" alt="img">
+
+								<!-- hs item image for small devices -->
+								<div class="hs-item-bg-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/auto-width/gallery-auto-width-4.jpg);"></div>
+
+								<!-- Element cover -->
+								<span class="cover"></span>
+								
+								<!-- Begin hs caption 
+								======================
+								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
+								* Size classes: "hs-caption-xs", "hs-caption-sm", "hs-caption-sm", "hs-caption-sm".
+								-->
+								<div class="hs-caption bottom-left max-width-400"> <!-- max width class is optional -->
+									<h2 class="hs-title">Nature's Work Of Art</h2>
+									<p class="hs-description">
+										Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat.
+									</p>
+									<a href="gallery-single.html" class="btn btn-primary btn-sm margin-top-25">View Album</a>
+								</div>
+								<!-- End hs caption -->
+
+							</div>
+							<!-- End horizontal scroller item -->
+
+							<!-- Begin horizontal scroller item 
+							==================================== -->
+							<div class="hs-item">
+
+								<!-- hs item image img -->
+								<img class="hs-item-image" src="assets/img/gallery/gallery-list/auto-width/gallery-auto-width-5.jpg" alt="img">
+
+								<!-- hs item image for small devices -->
+								<div class="hs-item-bg-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/auto-width/gallery-auto-width-5.jpg);"></div>
+
+								<!-- Element cover -->
+								<span class="cover"></span>
+								
+								<!-- Begin hs caption 
+								======================
+								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
+								* Size classes: "hs-caption-xs", "hs-caption-sm", "hs-caption-sm", "hs-caption-sm".
+								-->
+								<div class="hs-caption bottom-left max-width-400"> <!-- max width class is optional -->
+									<h2 class="hs-title">Tattoos, In Modern Art Form</h2>
+									<p class="hs-description">
+										Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat.
+									</p>
+									<a href="gallery-single.html" class="btn btn-primary btn-sm margin-top-25">View Album</a>
+								</div>
+								<!-- End hs caption -->
+
+							</div>
+							<!-- End horizontal scroller item -->
+
+							<!-- Begin horizontal scroller item 
+							==================================== -->
+							<div class="hs-item">
+
+								<!-- hs item image img -->
+								<img class="hs-item-image" src="assets/img/gallery/gallery-list/auto-width/gallery-auto-width-6.jpg" alt="img">
+
+								<!-- hs item image for small devices -->
+								<div class="hs-item-bg-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/auto-width/gallery-auto-width-6.jpg);"></div>
+
+								<!-- Element cover -->
+								<span class="cover"></span>
+								
+								<!-- Begin hs caption 
+								======================
+								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
+								* Size classes: "hs-caption-xs", "hs-caption-sm", "hs-caption-sm", "hs-caption-sm".
+								-->
+								<div class="hs-caption bottom-left max-width-400"> <!-- max width class is optional -->
+									<h2 class="hs-title">Bad Habits</h2>
+									<p class="hs-description">
+										Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat.
+									</p>
+									<a href="gallery-single.html" class="btn btn-primary btn-sm margin-top-25">View Album</a>
+								</div>
+								<!-- End hs caption -->
+
+							</div>
+							<!-- End horizontal scroller item -->
+
+						</div>
 					</div>
-					<!-- End content carousel -->
+					<!-- End horizontal scroller -->
 
 				</div> <!-- /.container -->
 			</section>
-			<!-- End gallery list section -->
+			<!-- End horizontal scroll gallery section -->
 
 		</div>
 		<!-- End body content -->

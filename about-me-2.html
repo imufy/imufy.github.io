@@ -10,7 +10,7 @@
 	<head>
 
 		<!-- Title -->
-		<title>Intro - FreeBird - Photography Portfolio HTML Website Template</title>
+		<title>About Me - FreeBird - Photography Portfolio HTML Website Template</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -63,8 +63,8 @@
 	* Add class "animsition" to enable page transition while page loads.
 	-->
 	<body class="temp-uppercase temp-grayscale animsition">
-		
 
+			
 		<!-- Page cover (if menu is open) -->
 		<span class="page-cover"></span>
 
@@ -73,7 +73,7 @@
 		///// Begin header /////
 		========================
 		* Add class "header-dark" to enable header dark style.
-		* Use class "header-click", "header-hover" or "header-fixed" to change behavior of the header (one of them is required!).
+		* Add class "header-click", "header-hover" or "header-fixed" to change behavior of the header (one of them is required!).
 		-->
 		<div id="header" class="header-hover">
 
@@ -115,7 +115,7 @@
 					<!-- Begin menu -->
 					<div id="menu">
 						<ul class="menu-list">
-							<li class="has-children active">
+							<li class="has-children">
 								<a href="#" class="sub-menu-trigger">Home</a> 
 								<ul class="sub-menu">
 									<li><a href="intro-image.html">Intro Image</a></li>
@@ -123,7 +123,7 @@
 									<li><a href="intro-slideshow.html">Intro Slideshow</a></li>
 								</ul>
 							</li>
-							<li class="has-children">
+							<li class="has-children active">
 								<a href="#" class="sub-menu-trigger">About Me</a> 
 								<ul class="sub-menu">
 									<li><a href="about-me.html">About Me</a></li>
@@ -250,195 +250,254 @@
 		*********** Begin body content *********** 
 		************************************** -->
 		<div id="body-content">
-						
-			<!-- =================================
-			///// Begin gallery list section /////
-			================================== -->
-			<section id="gallery-list-section" class="gallery-list-slideshow">
-				<div class="container-fluid no-padding bg-dark">
 
-					<!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
-					====================================================================
-					* Use class "nav-outside" for outside nav (requires boxed layout).
-					* Use class "nav-outside-top" for outside top nav (requires enough space at the top of the slider).
-					* Use class "nav-bottom-right" for bottom right nav.
-					* Use class "nav-rounded" for rounded nav.
-					* Use class "nav-light" to enable nav light style.
-					* Use class "dots-outside" for outside dots (requires enough space at the bottom of the slider).
-					* Use class "dots-left", "dots-right" or "dots-center-right" to align dots.
-					* Use class "dots-rounded" for rounded dots.
-					* Use class "owl-mousewheel" to enable mousewheel support.
-					* Use class "cursor-grab" to enable cursor grab icon (no effect on links!).
-					* Use class "cc-hover" or "cc-hover-2" to enable carousel items hover effect.
-					* Use class "cc-height-1", "cc-height-2", "cc-height-3", "cc-height-4", "cc-height-5", "cc-height-6" or "cc-height-full" to set carousel height.
-					* Use class "cc-height-m" to set full height for small screens.
-					================================================================
-					* Available carousel data attributes:
-							data-items="5".......................(items visible on desktop)
-							data-tablet-landscape="4"............(items visible on mobiles)
-							data-tablet-portrait="3".............(items visible on mobiles)
-							data-mobile-landscape="2"............(items visible on tablets)
-							data-mobile-portrait="1".............(items visible on tablets)
-							data-loop="true".....................(true/false)
-							data-margin="10".....................(space between items)
-							data-center="true"...................(true/false)
-							data-start-position="0"..............(item start position)
-							data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
-							data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
-							data-mouse-drag="false"..............(true/false)
-							data-touch-drag="false"..............(true/false)
-							data-autoheight="true"...............(true/false)
-							data-autoplay="true".................(true/false)
-							data-autoplay-timeout="5000".........(milliseconds)
-							data-autoplay-hover-pause="true".....(true/false)
-							data-autoplay-speed="800"............(milliseconds)
-							data-drag-end-speed="800"............(milliseconds)
-							data-nav="true"......................(true/false)
-							data-nav-speed="800".................(milliseconds)
-							data-dots="false"....................(true/false)
-							data-dots-speed="800"................(milliseconds)
-					-->
-					<div class="owl-carousel cc-height-full cursor-grab nav-bottom-right" data-items="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="10000" data-dots="false" data-nav="true" data-animate-in="fadeIn" data-animate-out="fadeOut">
 
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-5.jpg); background-position: 50% 30%;">
+			<!-- =============================
+			///// Begin about me section /////
+			============================== -->
+			<section id="about-me-section">
+					
+				<!-- ======================
+				///// Begin split box /////
+				based on: http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+				======================= -->
+				<div class="split-box about-me">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="row-lg-height">
 
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
+								<!-- Column -->
+								<div class="col-lg-6 col-lg-height split-box-image no-padding bg-image" style="background-image: url(assets/img/misc/me-1.jpg); background-position: 50% 50%;">
 
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Old Photos</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
+									<!-- Split box image height
+									============================
+									* You can use prepared "padding-height-*" helper classes to set split box image height. Example: "padding-height-85" (useful if "split-box-content" contend/text is very short). Also you can use class "full-height-vh" for full height image. Find out "helper.css" file for more info. Note: class "sbi-height" is required.
+									-->
+									<div class="sbi-height padding-height-100"></div>
 
-						</div>
-						<!-- End carousel item -->
+								</div> <!-- /.col -->
 
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-6.jpg); background-position: 50% 50%;">
+								<!-- Column -->
+								<div class="col-lg-6 col-lg-height col-lg-middle no-padding">
 
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
+									<!-- Begin split box content 
+									============================= 
+									* Use class "shifted-left" or "shifted-right" to enable shifted content (do not use for long content).
+									-->
+									<div class="split-box-content">
+										<h1 class="about-me-title">Who I am?</h1>
+										<div class="about-me-sub">Artist &amp; Photographer</div>
 
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Mother Nature</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
+										<div class="about-me-text">
+											<p>Hi, my name is Martin Vegas. I am an artist and photographer. Sollicitudin diam vitae, amet lacus donec eu, donec vulputate duis nullam nulla, suscipit nulla orci, ornare maecenas eget gravida. Curae sollicitudin lobortis.</p>
+										</div>
 
-						</div>
-						<!-- End carousel item -->
+										<!-- Begin follow me buttons -->
+										<div class="follow-me-buttons margin-top-30">
+											<ul>
+												<li><a href="" title="Follow me on Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li> 
+												<li><a href="" title="Follow me on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li> 
+												<li><a href="" title="Follow me on Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+												<li><a href="mailto:info@your-email.com" title="Email Me" target="_blank"><i class="far fa-envelope"></i></a></li>
+											</ul>
+										</div>
+										<!-- End follow me buttons -->
 
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-7.jpg); background-position: 50% 50%;">
+									</div>
+									<!-- End split box content -->
 
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
+								</div> <!-- /.col -->
 
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Fashion Photo Shoot</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
+							</div> <!-- /.row-height -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div>
+				<!-- End split box -->
 
-						</div>
-						<!-- End carousel item -->
+				<!-- ======================
+				///// Begin split box /////
+				based on: http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+				======================= -->
+				<div class="split-box what-i-do">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="row-lg-height">
 
-						<!-- Begin carousel item 
-						========================= -->
-						<div class="cc-item bg-image" style="background-image: url(assets/img/gallery/gallery-list/slideshow/gallery-slideshow-8.jpg); background-position: 50% 50%;">
+								<!-- Column -->
+								<div class="col-lg-6 col-lg-push-6 col-lg-height split-box-image no-padding bg-image" style="background-image: url(assets/img/misc/me-2.jpg); background-position: 50% 50%;">
 
-							<!-- Element cover -->
-							<span class="cover bg-transparent-2-dark"></span>
+									<!-- Split box image height
+									============================
+									* You can use prepared "padding-height-*" helper classes to set split box image height. Example: "padding-height-85" (useful if "split-box-content" contend/text is very short). Also you can use class "full-height-vh" for full height image. Find out "helper.css" file for more info. Note: class "sbi-height" is required.
+									-->
+									<div class="sbi-height padding-height-100"></div>
 
-							<!-- Begin caption 
-							===================
-							* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-							* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xl".
-							-->
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600"> <!-- max width class is optional -->
-								<h2 class="cc-title font-alter-1">Black &amp; White</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<div class="margin-top-30">
-									<a href="gallery-single.html" class="btn btn-primary margin-top-5">View Project</a>
-									<a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
-								</div>
-							</div>
-							<!-- End caption -->
+								</div> <!-- /.col -->
 
-						</div>
-						<!-- End carousel item -->
+								<!-- Column -->
+								<div class="col-lg-6 col-lg-pull-6 col-lg-height col-lg-middle no-padding">
 
-						<!-- Begin carousel item 
-						========================= -->
-						<!-- <div class="cc-item">
-								
-							<a class="owl-video" href="https://vimeo.com/99653121"></a>
+									<!-- Begin split box content 
+									============================= 
+									* Use class "shifted-left" or "shifted-right" to enable shifted content (do not use for long content).
+									-->
+									<div class="split-box-content">
+										<h1 class="about-me-title">What I Do?</h1>
+										<div class="about-me-sub">A little bit of my work</div>
 
-							<div class="cc-caption cc-caption-xlg center caption-animate max-width-600">
-								<h2 class="cc-title font-alter-1">Beauty &amp; Fashion</h2>
-								<p class="cc-description">
-									Sed at placerat odio, duis leo dui, porta in rutrum sit amet consequat. Donec vu duis nullam nulla.
-								</p>
-								<a href="gallery-single.html" class="btn btn-primary margin-top-25">View Project</a>
-							</div>
-							
-						</div> -->
-						<!-- End carousel item --> 
+										<div class="about-me-text">
+											<p>Pellentesque nec convallis nisi, in mollis nulla. Aliquam eget elit risus. Quisque vitae commodo libero, eu efficitur ligula. Cras vulputate arcu id interdum pretium. Cras eu blandit massa, at semper est. Curabitur id blandit purus. Curabitur egestas, lacus quis facilisis tempor.</p>
+										</div>
+										<a href="gallery-list-categories.html" class="btn btn-primary margin-top-20">View My Work</a>
+										<a href="contact.html" class="btn btn-dark-bordered margin-top-20">Contakt Me</a>
+									</div>
+									<!-- End split box content -->
 
-					</div>
-					<!-- End content carousel -->
+								</div> <!-- /.col -->
 
-				</div> <!-- /.container -->
+							</div> <!-- /.row-height -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div>
+				<!-- End split box -->
+
+				<!-- ======================
+				///// Begin split box /////
+				based on: http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+				======================= -->
+				<div class="split-box happy-clients">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="row-lg-height">
+
+								<!-- Column -->
+								<div class="col-lg-6 col-lg-height col-lg-middle no-padding bg-dark-2">
+
+									<!-- Begin clients carousel -->
+									<div class="clients-carousel">
+
+										<!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
+										====================================================================
+										* Use class "nav-outside" for outside nav (requires boxed layout).
+										* Use class "nav-outside-top" for outside top nav (requires enough space at the top of the slider).
+										* Use class "nav-bottom-right" for bottom right nav.
+										* Use class "nav-rounded" for rounded nav.
+										* Use class "nav-light" to enable nav light style.
+										* Use class "dots-outside" for outside dots (requires enough space at the bottom of the slider).
+										* Use class "dots-left", "dots-right" or "dots-center-right" to align dots.
+										* Use class "dots-rounded" for rounded dots.
+										* Use class "owl-mousewheel" to enable mousewheel support.
+										* Use class "cursor-grab" to enable cursor grab icon (no effect on links!).
+										====================================================================
+										* Available carousel data attributes:
+												data-items="5".......................(items visible on desktop)
+												data-tablet-landscape="4"............(items visible on mobiles)
+												data-tablet-portrait="3".............(items visible on mobiles)
+												data-mobile-landscape="2"............(items visible on tablets)
+												data-mobile-portrait="1".............(items visible on tablets)
+												data-loop="true".....................(true/false)
+												data-margin="10".....................(space between items)
+												data-center="true"...................(true/false)
+												data-start-position="0"..............(item start position)
+												data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
+												data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
+												data-mouse-drag="false"..............(true/false)
+												data-touch-drag="false"..............(true/false)
+												data-autoheight="true"...............(true/false)
+												data-autoplay="true".................(true/false)
+												data-autoplay-timeout="5000".........(milliseconds)
+												data-autoplay-hover-pause="true".....(true/false)
+												data-autoplay-speed="800"............(milliseconds)
+												data-drag-end-speed="800"............(milliseconds)
+												data-nav="true"......................(true/false)
+												data-nav-speed="800".................(milliseconds)
+												data-dots="false"....................(true/false)
+												data-dots-speed="800"................(milliseconds)
+										-->
+										<div class="owl-carousel owl-mousewheel" data-items="4" data-margin="30" data-dots="false" data-loop="true" data-autoplay="true" data-tablet-landscape="3" data-tablet-portrait="4" data-mobile-landscape="3" data-mobile-portrait="2">
+
+											<!-- Begin carousel item -->
+											<a href="" class="client-image" title="Happy Client">
+												<img src="assets/img/clients/client-1-light.png" alt="image">
+											</a>
+											<!-- End carousel item -->
+
+											<!-- Begin carousel item -->
+											<a href="" class="client-image" title="Happy Client">
+												<img src="assets/img/clients/client-2-light.png" alt="image">
+											</a>
+											<!-- End carousel item -->
+
+											<!-- Begin carousel item -->
+											<a href="" class="client-image" title="Happy Client">
+												<img src="assets/img/clients/client-3-light.png" alt="image">
+											</a>
+											<!-- End carousel item -->
+
+											<!-- Begin carousel item -->
+											<a href="" class="client-image" title="Happy Client">
+												<img src="assets/img/clients/client-4-light.png" alt="image">
+											</a>
+											<!-- End carousel item -->
+
+											<!-- Begin carousel item -->
+											<a href="" class="client-image" title="Happy Client">
+												<img src="assets/img/clients/client-5-light.png" alt="image">
+											</a>
+											<!-- End carousel item -->
+
+											<!-- Begin carousel item -->
+											<a href="" class="client-image" title="Happy Client">
+												<img src="assets/img/clients/client-6-light.png" alt="image">
+											</a>
+											<!-- End carousel item -->
+
+											<!-- Begin carousel item -->
+											<a href="" class="client-image" title="Happy Client">
+												<img src="assets/img/clients/client-7-light.png" alt="image">
+											</a>
+											<!-- End carousel item -->
+
+										</div>
+										<!-- End content carousel -->
+
+									</div>
+									<!-- End clients carousel -->
+
+								</div> <!-- /.col -->
+
+								<!-- Column -->
+								<div class="col-lg-6 col-lg-height col-lg-middle no-padding">
+
+									<!-- Begin split box content -->
+									<div class="split-box-content text-center">
+										<h1 class="about-me-title">Happy Clients</h1>
+
+										<div class="about-me-text">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus inventore consectetur dolores eius, enim totam eligendi tempore cupiditate molestias eveniet suscipit quasi quas eaque mollitia velit sunt sed, adipisci optio. :)</p>
+										</div>
+									</div>
+									<!-- End split box content -->
+
+								</div> <!-- /.col -->
+							</div> <!-- /.row-height -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div>
+				<!-- End split box -->
+
 			</section>
-			<!-- End gallery list section -->
+			<!-- End about me section -->
 
 		</div>
 		<!-- End body content -->
 
 
+		<!-- Scroll to top button -->
+		<a href="#body-content" class="scrolltotop sm-scroll" title="Scroll to top"><i class="fas fa-chevron-up"></i></a>
 
-        
 
+	        
 		<!-- ====================
 		///// Scripts below /////
 		===================== -->
